@@ -1,0 +1,6 @@
+{
+    "name": "Bots-base",
+    "language": "typescript",
+    "manager": "npm",
+    "prefix": "!"
+}

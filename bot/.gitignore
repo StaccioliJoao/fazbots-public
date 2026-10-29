@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+.vscode/settings.json
+src/commands/Verification/VTicketCommand.ts
+
+# Instagram session saved at runtime
+data/*
+!data/.gitkeep

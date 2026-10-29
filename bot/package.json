@@ -1,0 +1,37 @@
+{
+  "name": "fazbots-bot",
+  "version": "2.0.0",
+  "private": true,
+  "description": "FazBots Discord bot (discord.js v14 + TypeORM)",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "ts-node --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "@devraelfreeze/discordjs-pagination": "^2.7.0",
+    "axios": "^0.27.2",
+    "canvas": "^2.11.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "enhanced-ms": "^2.2.0",
+    "humanize-duration": "^3.28.0",
+    "instagram-private-api": "^1.45.3",
+    "jimp": "^0.16.2",
+    "luxon": "^3.0.3",
+    "moment-timezone": "^0.5.43",
+    "ms-typescript": "^2.0.0",
+    "pg": "^8.8.0",
+    "reflect-metadata": "^0.1.13",
+    "request": "^2.88.2",
+    "socket.io-client": "^4.5.2",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.10",
+    "typescript": "^4.8.2"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.0.1",
+    "@types/node": "^16.11.56",
+    "nodemon": "^2.0.20"
+  }
+}
